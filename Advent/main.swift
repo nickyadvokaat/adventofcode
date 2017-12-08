@@ -10,5 +10,7 @@ import Foundation
 
 print("Challenge 1")
 Challenge1.run()
+print("Challenge 2")
+Challenge2.run()
 print("Challenge 8")
 Challenge8.run()
