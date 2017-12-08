@@ -26,7 +26,7 @@ public class LineReader {
         var line:UnsafeMutablePointer<CChar>? = nil
         var linecap:Int = 0
         defer { free(line) }
-        return getline(&line, &linecap, file) > 0 ? String(cString: line!) : nil
+        return getline(&line, &linecap, file) > 0 ? String(cString: line!).removingOccurrences(of: "\n") : nil
     }
 
     deinit {
@@ -35,11 +35,10 @@ public class LineReader {
 }
 
 extension LineReader: Sequence {
-    public func  makeIterator() -> AnyIterator<String> {
+    public func makeIterator() -> AnyIterator<String> {
         return AnyIterator<String> {
-            var line = self.nextLine
-            line = line?.removingOccurrences(of: "\n")
-            return line
+            return self.nextLine
         }
     }
 }
+
