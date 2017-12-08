@@ -22,4 +22,8 @@ extension String {
         guard let range = Range(nsrange, in: self) else { return nil }
         return self[range]
     }
+
+    func sortedByCharacters() -> String {
+        return String(Array(self).sorted())
+    }
 }
