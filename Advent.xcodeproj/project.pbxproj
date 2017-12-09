@@ -26,6 +26,7 @@
 		DDCEA64E1FDAF741000C99E5 /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA64D1FDAF741000C99E5 /* Challenge1.swift */; };
 		DDCEA6521FDB2BEA000C99E5 /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6511FDB2BEA000C99E5 /* Challenge2.swift */; };
 		DDCEA6561FDB2FDA000C99E5 /* Challenge4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6551FDB2FDA000C99E5 /* Challenge4.swift */; };
+		DDCEA6591FDB5210000C99E5 /* Challenge9.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6581FDB5210000C99E5 /* Challenge9.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,8 @@
 		DDCEA64F1FDB293B000C99E5 /* data1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data1.txt; sourceTree = "<group>"; };
 		DDCEA6511FDB2BEA000C99E5 /* Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2.swift; sourceTree = "<group>"; };
 		DDCEA6551FDB2FDA000C99E5 /* Challenge4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge4.swift; sourceTree = "<group>"; };
+		DDCEA6581FDB5210000C99E5 /* Challenge9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge9.swift; sourceTree = "<group>"; };
+		DDCEA65A1FDBD093000C99E5 /* data9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data9.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 				DDCEA6501FDB2BDA000C99E5 /* Challenge2 */,
 				DDCEA6541FDB2FCB000C99E5 /* Challenge4 */,
 				DDCEA63E1FDAE773000C99E5 /* Challenge8 */,
+				DDCEA6571FDB51CE000C99E5 /* Challenge9 */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -125,6 +129,7 @@
 				DDCEA6071FD6BCB2000C99E5 /* data5.txt */,
 				DDCEA61B1FD9214E000C99E5 /* data7.txt */,
 				DDCEA63D1FDA76EA000C99E5 /* data8.txt */,
+				DDCEA65A1FDBD093000C99E5 /* data9.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -163,6 +168,14 @@
 				DDCEA6551FDB2FDA000C99E5 /* Challenge4.swift */,
 			);
 			path = Challenge4;
+			sourceTree = "<group>";
+		};
+		DDCEA6571FDB51CE000C99E5 /* Challenge9 */ = {
+			isa = PBXGroup;
+			children = (
+				DDCEA6581FDB5210000C99E5 /* Challenge9.swift */,
+			);
+			path = Challenge9;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +271,7 @@
 				DDCEA6461FDAE814000C99E5 /* RegisterCollection.swift in Sources */,
 				DDCEA64A1FDAE929000C99E5 /* InstructionParser.swift in Sources */,
 				DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */,
+				DDCEA6591FDB5210000C99E5 /* Challenge9.swift in Sources */,
 				DDCEA60A1FD74039000C99E5 /* String+Util.swift in Sources */,
 				DDCEA6431FDAE7D2000C99E5 /* Register.swift in Sources */,
 				DDCEA63C1FDA76A1000C99E5 /* Challenge8.swift in Sources */,
