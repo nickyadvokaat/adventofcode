@@ -9,24 +9,27 @@
 /* Begin PBXBuildFile section */
 		DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5D71FD56FDF000C99E5 /* main.swift */; };
 		DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */; };
-		DDCEA5FE1FD67F72000C99E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5D71FD56FDF000C99E5 /* main.swift */; };
-		DDCEA6001FD67F72000C99E5 /* LineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */; };
 		DDCEA60A1FD74039000C99E5 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6091FD74039000C99E5 /* String+Util.swift */; };
-		DDCEA60B1FD7409C000C99E5 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6091FD74039000C99E5 /* String+Util.swift */; };
 		DDCEA63C1FDA76A1000C99E5 /* Challenge8.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA63B1FDA76A1000C99E5 /* Challenge8.swift */; };
 		DDCEA6401FDAE79D000C99E5 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA63F1FDAE79D000C99E5 /* Instruction.swift */; };
-		DDCEA6411FDAE79D000C99E5 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA63F1FDAE79D000C99E5 /* Instruction.swift */; };
 		DDCEA6431FDAE7D2000C99E5 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6421FDAE7D2000C99E5 /* Register.swift */; };
-		DDCEA6441FDAE7D2000C99E5 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6421FDAE7D2000C99E5 /* Register.swift */; };
 		DDCEA6461FDAE814000C99E5 /* RegisterCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6451FDAE814000C99E5 /* RegisterCollection.swift */; };
-		DDCEA6471FDAE814000C99E5 /* RegisterCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6451FDAE814000C99E5 /* RegisterCollection.swift */; };
-		DDCEA6481FDAE90D000C99E5 /* Challenge8.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA63B1FDA76A1000C99E5 /* Challenge8.swift */; };
 		DDCEA64A1FDAE929000C99E5 /* InstructionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6491FDAE929000C99E5 /* InstructionParser.swift */; };
-		DDCEA64B1FDAE929000C99E5 /* InstructionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6491FDAE929000C99E5 /* InstructionParser.swift */; };
 		DDCEA64E1FDAF741000C99E5 /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA64D1FDAF741000C99E5 /* Challenge1.swift */; };
 		DDCEA6521FDB2BEA000C99E5 /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6511FDB2BEA000C99E5 /* Challenge2.swift */; };
 		DDCEA6561FDB2FDA000C99E5 /* Challenge4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6551FDB2FDA000C99E5 /* Challenge4.swift */; };
 		DDCEA6591FDB5210000C99E5 /* Challenge9.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6581FDB5210000C99E5 /* Challenge9.swift */; };
+		DDCEA65D1FDD310B000C99E5 /* Challenge10.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA65C1FDD310B000C99E5 /* Challenge10.swift */; };
+		DDCEA6651FDD4CA0000C99E5 /* Challenge10Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6641FDD4CA0000C99E5 /* Challenge10Test.swift */; };
+		DDCEA66A1FDD4F19000C99E5 /* Challenge10.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA65C1FDD310B000C99E5 /* Challenge10.swift */; };
+		DDCEA66D1FDD96F5000C99E5 /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA66C1FDD96F5000C99E5 /* Challenge3.swift */; };
+		DDCEA6701FDE6618000C99E5 /* Challenge11.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA66F1FDE6618000C99E5 /* Challenge11.swift */; };
+		DDCEA6731FDE70A1000C99E5 /* HexCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6721FDE70A1000C99E5 /* HexCoordinate.swift */; };
+		DDCEA6751FDE7125000C99E5 /* Challenge11Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6741FDE7125000C99E5 /* Challenge11Test.swift */; };
+		DDCEA6761FDE7171000C99E5 /* Challenge11.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA66F1FDE6618000C99E5 /* Challenge11.swift */; };
+		DDCEA6771FDE7173000C99E5 /* HexCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6721FDE70A1000C99E5 /* HexCoordinate.swift */; };
+		DDCEA6781FDE71CA000C99E5 /* LineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */; };
+		DDCEA6791FDE71D2000C99E5 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6091FD74039000C99E5 /* String+Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,7 +48,6 @@
 		DDCEA5D41FD56FDF000C99E5 /* Advent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Advent; path = "/Users/nad21491/Xcode Projects/adventofcode/build/Debug/Advent"; sourceTree = "<absolute>"; };
 		DDCEA5D71FD56FDF000C99E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineReader.swift; sourceTree = "<group>"; };
-		DDCEA5F21FD67E7E000C99E5 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Test.xctest; path = "/Users/nad21491/Xcode Projects/adventofcode/build/Debug/Test.xctest"; sourceTree = "<absolute>"; };
 		DDCEA6071FD6BCB2000C99E5 /* data5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data5.txt; sourceTree = "<group>"; };
 		DDCEA6081FD73ECB000C99E5 /* data4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data4.txt; sourceTree = "<group>"; };
 		DDCEA6091FD74039000C99E5 /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
@@ -62,6 +64,15 @@
 		DDCEA6551FDB2FDA000C99E5 /* Challenge4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge4.swift; sourceTree = "<group>"; };
 		DDCEA6581FDB5210000C99E5 /* Challenge9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge9.swift; sourceTree = "<group>"; };
 		DDCEA65A1FDBD093000C99E5 /* data9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data9.txt; sourceTree = "<group>"; };
+		DDCEA65C1FDD310B000C99E5 /* Challenge10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge10.swift; sourceTree = "<group>"; };
+		DDCEA6621FDD4CA0000C99E5 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Test.xctest; path = "/Users/nad21491/Xcode Projects/adventofcode/build/Debug/Test.xctest"; sourceTree = "<absolute>"; };
+		DDCEA6641FDD4CA0000C99E5 /* Challenge10Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge10Test.swift; sourceTree = "<group>"; };
+		DDCEA6661FDD4CA0000C99E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCEA66C1FDD96F5000C99E5 /* Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3.swift; sourceTree = "<group>"; };
+		DDCEA66F1FDE6618000C99E5 /* Challenge11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge11.swift; sourceTree = "<group>"; };
+		DDCEA6711FDE6A1E000C99E5 /* data11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data11.txt; sourceTree = "<group>"; };
+		DDCEA6721FDE70A1000C99E5 /* HexCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexCoordinate.swift; sourceTree = "<group>"; };
+		DDCEA6741FDE7125000C99E5 /* Challenge11Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge11Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +83,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDCEA5EF1FD67E7E000C99E5 /* Frameworks */ = {
+		DDCEA65F1FDD4CA0000C99E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				DDCEA5D61FD56FDF000C99E5 /* Advent */,
+				DDCEA6631FDD4CA0000C99E5 /* Test */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,9 +126,12 @@
 			children = (
 				DDCEA64C1FDAF719000C99E5 /* Challenge1 */,
 				DDCEA6501FDB2BDA000C99E5 /* Challenge2 */,
+				DDCEA66B1FDD96E6000C99E5 /* Challenge3 */,
 				DDCEA6541FDB2FCB000C99E5 /* Challenge4 */,
 				DDCEA63E1FDAE773000C99E5 /* Challenge8 */,
 				DDCEA6571FDB51CE000C99E5 /* Challenge9 */,
+				DDCEA65B1FDD30EB000C99E5 /* Challene10 */,
+				DDCEA66E1FDE6603000C99E5 /* Challenge11 */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -130,6 +145,7 @@
 				DDCEA61B1FD9214E000C99E5 /* data7.txt */,
 				DDCEA63D1FDA76EA000C99E5 /* data8.txt */,
 				DDCEA65A1FDBD093000C99E5 /* data9.txt */,
+				DDCEA6711FDE6A1E000C99E5 /* data11.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -178,6 +194,41 @@
 			path = Challenge9;
 			sourceTree = "<group>";
 		};
+		DDCEA65B1FDD30EB000C99E5 /* Challene10 */ = {
+			isa = PBXGroup;
+			children = (
+				DDCEA65C1FDD310B000C99E5 /* Challenge10.swift */,
+			);
+			path = Challene10;
+			sourceTree = "<group>";
+		};
+		DDCEA6631FDD4CA0000C99E5 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DDCEA6641FDD4CA0000C99E5 /* Challenge10Test.swift */,
+				DDCEA6741FDE7125000C99E5 /* Challenge11Test.swift */,
+				DDCEA6661FDD4CA0000C99E5 /* Info.plist */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		DDCEA66B1FDD96E6000C99E5 /* Challenge3 */ = {
+			isa = PBXGroup;
+			children = (
+				DDCEA66C1FDD96F5000C99E5 /* Challenge3.swift */,
+			);
+			path = Challenge3;
+			sourceTree = "<group>";
+		};
+		DDCEA66E1FDE6603000C99E5 /* Challenge11 */ = {
+			isa = PBXGroup;
+			children = (
+				DDCEA66F1FDE6618000C99E5 /* Challenge11.swift */,
+				DDCEA6721FDE70A1000C99E5 /* HexCoordinate.swift */,
+			);
+			path = Challenge11;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,13 +249,13 @@
 			productReference = DDCEA5D41FD56FDF000C99E5 /* Advent */;
 			productType = "com.apple.product-type.tool";
 		};
-		DDCEA5F11FD67E7E000C99E5 /* Test */ = {
+		DDCEA6611FDD4CA0000C99E5 /* Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDCEA5F71FD67E7E000C99E5 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = DDCEA6671FDD4CA0000C99E5 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
-				DDCEA5EE1FD67E7E000C99E5 /* Sources */,
-				DDCEA5EF1FD67E7E000C99E5 /* Frameworks */,
-				DDCEA5F01FD67E7E000C99E5 /* Resources */,
+				DDCEA65E1FDD4CA0000C99E5 /* Sources */,
+				DDCEA65F1FDD4CA0000C99E5 /* Frameworks */,
+				DDCEA6601FDD4CA0000C99E5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -212,7 +263,7 @@
 			);
 			name = Test;
 			productName = Test;
-			productReference = DDCEA5F21FD67E7E000C99E5 /* Test.xctest */;
+			productReference = DDCEA6621FDD4CA0000C99E5 /* Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +280,7 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
-					DDCEA5F11FD67E7E000C99E5 = {
+					DDCEA6611FDD4CA0000C99E5 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -248,13 +299,13 @@
 			projectRoot = "";
 			targets = (
 				DDCEA5D31FD56FDE000C99E5 /* Advent */,
-				DDCEA5F11FD67E7E000C99E5 /* Test */,
+				DDCEA6611FDD4CA0000C99E5 /* Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DDCEA5F01FD67E7E000C99E5 /* Resources */ = {
+		DDCEA6601FDD4CA0000C99E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,12 +321,16 @@
 			files = (
 				DDCEA6461FDAE814000C99E5 /* RegisterCollection.swift in Sources */,
 				DDCEA64A1FDAE929000C99E5 /* InstructionParser.swift in Sources */,
+				DDCEA6701FDE6618000C99E5 /* Challenge11.swift in Sources */,
 				DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */,
+				DDCEA66D1FDD96F5000C99E5 /* Challenge3.swift in Sources */,
 				DDCEA6591FDB5210000C99E5 /* Challenge9.swift in Sources */,
 				DDCEA60A1FD74039000C99E5 /* String+Util.swift in Sources */,
 				DDCEA6431FDAE7D2000C99E5 /* Register.swift in Sources */,
 				DDCEA63C1FDA76A1000C99E5 /* Challenge8.swift in Sources */,
 				DDCEA64E1FDAF741000C99E5 /* Challenge1.swift in Sources */,
+				DDCEA65D1FDD310B000C99E5 /* Challenge10.swift in Sources */,
+				DDCEA6731FDE70A1000C99E5 /* HexCoordinate.swift in Sources */,
 				DDCEA6401FDAE79D000C99E5 /* Instruction.swift in Sources */,
 				DDCEA6521FDB2BEA000C99E5 /* Challenge2.swift in Sources */,
 				DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */,
@@ -283,18 +338,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDCEA5EE1FD67E7E000C99E5 /* Sources */ = {
+		DDCEA65E1FDD4CA0000C99E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDCEA6471FDAE814000C99E5 /* RegisterCollection.swift in Sources */,
-				DDCEA6441FDAE7D2000C99E5 /* Register.swift in Sources */,
-				DDCEA5FE1FD67F72000C99E5 /* main.swift in Sources */,
-				DDCEA6001FD67F72000C99E5 /* LineReader.swift in Sources */,
-				DDCEA64B1FDAE929000C99E5 /* InstructionParser.swift in Sources */,
-				DDCEA60B1FD7409C000C99E5 /* String+Util.swift in Sources */,
-				DDCEA6481FDAE90D000C99E5 /* Challenge8.swift in Sources */,
-				DDCEA6411FDAE79D000C99E5 /* Instruction.swift in Sources */,
+				DDCEA66A1FDD4F19000C99E5 /* Challenge10.swift in Sources */,
+				DDCEA6761FDE7171000C99E5 /* Challenge11.swift in Sources */,
+				DDCEA6651FDD4CA0000C99E5 /* Challenge10Test.swift in Sources */,
+				DDCEA6791FDE71D2000C99E5 /* String+Util.swift in Sources */,
+				DDCEA6751FDE7125000C99E5 /* Challenge11Test.swift in Sources */,
+				DDCEA6781FDE71CA000C99E5 /* LineReader.swift in Sources */,
+				DDCEA6771FDE7173000C99E5 /* HexCoordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +481,7 @@
 			};
 			name = Release;
 		};
-		DDCEA5F81FD67E7E000C99E5 /* Debug */ = {
+		DDCEA6681FDD4CA0000C99E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -441,7 +495,7 @@
 			};
 			name = Debug;
 		};
-		DDCEA5F91FD67E7E000C99E5 /* Release */ = {
+		DDCEA6691FDD4CA0000C99E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -476,11 +530,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDCEA5F71FD67E7E000C99E5 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		DDCEA6671FDD4CA0000C99E5 /* Build configuration list for PBXNativeTarget "Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDCEA5F81FD67E7E000C99E5 /* Debug */,
-				DDCEA5F91FD67E7E000C99E5 /* Release */,
+				DDCEA6681FDD4CA0000C99E5 /* Debug */,
+				DDCEA6691FDD4CA0000C99E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
