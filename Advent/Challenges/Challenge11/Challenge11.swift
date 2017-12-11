@@ -27,31 +27,10 @@ class Challenge11 {
         var maxDistance = 0
         var hexCoordinate = HexCoordinate(x: 0,y: 0)
         for step in steps {
-            switch step {
-            case "n":
-                hexCoordinate.y += 1
-                break
-            case "ne":
-                hexCoordinate.x += 1
-                hexCoordinate.y += 1
-                break
-            case "se":
-                hexCoordinate.x += 1
-                break
-            case "s":
-                hexCoordinate.y -= 1
-                break
-            case "sw":
-                hexCoordinate.x -= 1
-                hexCoordinate.y -= 1
-                break
-            case "nw":
-                hexCoordinate.x -= 1
-                break
-            default:
-                break
+            if let hexDirection = HexDirection(rawValue: step) {
+                hexCoordinate.move(intoDirection: hexDirection)
+                maxDistance = max(maxDistance, hexCoordinate.distance)
             }
-            maxDistance = max(maxDistance, hexCoordinate.distance)
         }
         let distance = hexCoordinate.distance
         return (distance, maxDistance)
