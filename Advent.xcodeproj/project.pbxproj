@@ -30,6 +30,14 @@
 		DDCEA6771FDE7173000C99E5 /* HexCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6721FDE70A1000C99E5 /* HexCoordinate.swift */; };
 		DDCEA6781FDE71CA000C99E5 /* LineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */; };
 		DDCEA6791FDE71D2000C99E5 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6091FD74039000C99E5 /* String+Util.swift */; };
+		DDCEA67B1FDEDBC7000C99E5 /* Challenge3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA67A1FDEDBC7000C99E5 /* Challenge3Test.swift */; };
+		DDCEA67D1FDEDBE9000C99E5 /* MazeSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA67C1FDEDBE9000C99E5 /* MazeSquare.swift */; };
+		DDCEA67E1FDEDBFA000C99E5 /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA66C1FDD96F5000C99E5 /* Challenge3.swift */; };
+		DDCEA67F1FDEDBFA000C99E5 /* MazeSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA67C1FDEDBE9000C99E5 /* MazeSquare.swift */; };
+		DDCEA6811FDEDC0B000C99E5 /* MazeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6801FDEDC0B000C99E5 /* MazeDirection.swift */; };
+		DDCEA6821FDEDC12000C99E5 /* MazeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6801FDEDC0B000C99E5 /* MazeDirection.swift */; };
+		DDCEA6841FDEDC37000C99E5 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6831FDEDC37000C99E5 /* Maze.swift */; };
+		DDCEA6851FDEDC37000C99E5 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6831FDEDC37000C99E5 /* Maze.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +81,10 @@
 		DDCEA6711FDE6A1E000C99E5 /* data11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data11.txt; sourceTree = "<group>"; };
 		DDCEA6721FDE70A1000C99E5 /* HexCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexCoordinate.swift; sourceTree = "<group>"; };
 		DDCEA6741FDE7125000C99E5 /* Challenge11Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge11Test.swift; sourceTree = "<group>"; };
+		DDCEA67A1FDEDBC7000C99E5 /* Challenge3Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3Test.swift; sourceTree = "<group>"; };
+		DDCEA67C1FDEDBE9000C99E5 /* MazeSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeSquare.swift; sourceTree = "<group>"; };
+		DDCEA6801FDEDC0B000C99E5 /* MazeDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeDirection.swift; sourceTree = "<group>"; };
+		DDCEA6831FDEDC37000C99E5 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +217,7 @@
 		DDCEA6631FDD4CA0000C99E5 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				DDCEA67A1FDEDBC7000C99E5 /* Challenge3Test.swift */,
 				DDCEA6641FDD4CA0000C99E5 /* Challenge10Test.swift */,
 				DDCEA6741FDE7125000C99E5 /* Challenge11Test.swift */,
 				DDCEA6661FDD4CA0000C99E5 /* Info.plist */,
@@ -216,6 +229,9 @@
 			isa = PBXGroup;
 			children = (
 				DDCEA66C1FDD96F5000C99E5 /* Challenge3.swift */,
+				DDCEA6831FDEDC37000C99E5 /* Maze.swift */,
+				DDCEA6801FDEDC0B000C99E5 /* MazeDirection.swift */,
+				DDCEA67C1FDEDBE9000C99E5 /* MazeSquare.swift */,
 			);
 			path = Challenge3;
 			sourceTree = "<group>";
@@ -321,6 +337,7 @@
 			files = (
 				DDCEA6461FDAE814000C99E5 /* RegisterCollection.swift in Sources */,
 				DDCEA64A1FDAE929000C99E5 /* InstructionParser.swift in Sources */,
+				DDCEA67D1FDEDBE9000C99E5 /* MazeSquare.swift in Sources */,
 				DDCEA6701FDE6618000C99E5 /* Challenge11.swift in Sources */,
 				DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */,
 				DDCEA66D1FDD96F5000C99E5 /* Challenge3.swift in Sources */,
@@ -332,8 +349,10 @@
 				DDCEA65D1FDD310B000C99E5 /* Challenge10.swift in Sources */,
 				DDCEA6731FDE70A1000C99E5 /* HexCoordinate.swift in Sources */,
 				DDCEA6401FDAE79D000C99E5 /* Instruction.swift in Sources */,
+				DDCEA6841FDEDC37000C99E5 /* Maze.swift in Sources */,
 				DDCEA6521FDB2BEA000C99E5 /* Challenge2.swift in Sources */,
 				DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */,
+				DDCEA6811FDEDC0B000C99E5 /* MazeDirection.swift in Sources */,
 				DDCEA6561FDB2FDA000C99E5 /* Challenge4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,11 +363,16 @@
 			files = (
 				DDCEA66A1FDD4F19000C99E5 /* Challenge10.swift in Sources */,
 				DDCEA6761FDE7171000C99E5 /* Challenge11.swift in Sources */,
+				DDCEA6851FDEDC37000C99E5 /* Maze.swift in Sources */,
 				DDCEA6651FDD4CA0000C99E5 /* Challenge10Test.swift in Sources */,
 				DDCEA6791FDE71D2000C99E5 /* String+Util.swift in Sources */,
 				DDCEA6751FDE7125000C99E5 /* Challenge11Test.swift in Sources */,
+				DDCEA67F1FDEDBFA000C99E5 /* MazeSquare.swift in Sources */,
+				DDCEA67B1FDEDBC7000C99E5 /* Challenge3Test.swift in Sources */,
+				DDCEA67E1FDEDBFA000C99E5 /* Challenge3.swift in Sources */,
 				DDCEA6781FDE71CA000C99E5 /* LineReader.swift in Sources */,
 				DDCEA6771FDE7173000C99E5 /* HexCoordinate.swift in Sources */,
+				DDCEA6821FDEDC12000C99E5 /* MazeDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
