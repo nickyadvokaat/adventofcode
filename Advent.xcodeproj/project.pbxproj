@@ -14,6 +14,10 @@
 		DD54C36E1FE3B22E00B96A08 /* Challenge15.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C36D1FE3B22E00B96A08 /* Challenge15.swift */; };
 		DD54C3701FE3C21700B96A08 /* Judge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C36F1FE3C21700B96A08 /* Judge.swift */; };
 		DD54C3721FE3C21D00B96A08 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C3711FE3C21D00B96A08 /* Generator.swift */; };
+		DD54C3751FE4136500B96A08 /* Challenge16.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C3741FE4136500B96A08 /* Challenge16.swift */; };
+		DD54C3791FE537A000B96A08 /* DanceInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C3781FE537A000B96A08 /* DanceInstruction.swift */; };
+		DD54C37B1FE539F900B96A08 /* DanceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C37A1FE539F900B96A08 /* DanceParser.swift */; };
+		DD54C37D1FE53BD300B96A08 /* Dance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C37C1FE53BD300B96A08 /* Dance.swift */; };
 		DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5D71FD56FDF000C99E5 /* main.swift */; };
 		DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */; };
 		DDCEA60A1FD74039000C99E5 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6091FD74039000C99E5 /* String+Util.swift */; };
@@ -63,7 +67,7 @@
 
 /* Begin PBXFileReference section */
 		DD54C35F1FDFBA3600B96A08 /* Advent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Advent; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD54C3601FDFBA3600B96A08 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD54C3601FDFBA3600B96A08 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Test.xctest; path = "/Users/nad21491/Xcode Projects/adventofcode/build/Debug/Test.xctest"; sourceTree = "<absolute>"; };
 		DD54C3611FDFBA8000B96A08 /* data12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data12.txt; sourceTree = "<group>"; };
 		DD54C3631FE104AA00B96A08 /* Challenge13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge13.swift; sourceTree = "<group>"; };
 		DD54C3651FE1227200B96A08 /* Firewall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firewall.swift; sourceTree = "<group>"; };
@@ -72,6 +76,12 @@
 		DD54C36D1FE3B22E00B96A08 /* Challenge15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge15.swift; sourceTree = "<group>"; };
 		DD54C36F1FE3C21700B96A08 /* Judge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Judge.swift; sourceTree = "<group>"; };
 		DD54C3711FE3C21D00B96A08 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		DD54C3741FE4136500B96A08 /* Challenge16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge16.swift; sourceTree = "<group>"; };
+		DD54C3761FE5182500B96A08 /* data13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data13.txt; sourceTree = "<group>"; };
+		DD54C3771FE5182500B96A08 /* data16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data16.txt; sourceTree = "<group>"; };
+		DD54C3781FE537A000B96A08 /* DanceInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceInstruction.swift; sourceTree = "<group>"; };
+		DD54C37A1FE539F900B96A08 /* DanceParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceParser.swift; sourceTree = "<group>"; };
+		DD54C37C1FE53BD300B96A08 /* Dance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance.swift; sourceTree = "<group>"; };
 		DDCEA5D71FD56FDF000C99E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineReader.swift; sourceTree = "<group>"; };
 		DDCEA6071FD6BCB2000C99E5 /* data5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data5.txt; sourceTree = "<group>"; };
@@ -151,13 +161,23 @@
 			path = Challenge15;
 			sourceTree = "<group>";
 		};
+		DD54C3731FE4135400B96A08 /* Challenge16 */ = {
+			isa = PBXGroup;
+			children = (
+				DD54C3741FE4136500B96A08 /* Challenge16.swift */,
+				DD54C37C1FE53BD300B96A08 /* Dance.swift */,
+				DD54C3781FE537A000B96A08 /* DanceInstruction.swift */,
+				DD54C37A1FE539F900B96A08 /* DanceParser.swift */,
+			);
+			path = Challenge16;
+			sourceTree = "<group>";
+		};
 		DDCEA5CB1FD56FDE000C99E5 = {
 			isa = PBXGroup;
 			children = (
 				DDCEA5D61FD56FDF000C99E5 /* Advent */,
 				DDCEA6631FDD4CA0000C99E5 /* Test */,
 				DD54C35F1FDFBA3600B96A08 /* Advent */,
-				DD54C3601FDFBA3600B96A08 /* Test.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,8 +204,6 @@
 		DDCEA5EB1FD5F081000C99E5 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
-				DD54C36C1FE3B22600B96A08 /* Challenge15 */,
-				DD54C3691FE1CD3200B96A08 /* Challenge14 */,
 				DDCEA64C1FDAF719000C99E5 /* Challenge1 */,
 				DDCEA6501FDB2BDA000C99E5 /* Challenge2 */,
 				DDCEA66B1FDD96E6000C99E5 /* Challenge3 */,
@@ -196,6 +214,9 @@
 				DDCEA66E1FDE6603000C99E5 /* Challenge11 */,
 				DDCEA6861FDF2ABF000C99E5 /* Challenge12 */,
 				DD54C3621FE1049D00B96A08 /* Challenge13 */,
+				DD54C3691FE1CD3200B96A08 /* Challenge14 */,
+				DD54C36C1FE3B22600B96A08 /* Challenge15 */,
+				DD54C3731FE4135400B96A08 /* Challenge16 */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -203,7 +224,6 @@
 		DDCEA6061FD6BC83000C99E5 /* Input */ = {
 			isa = PBXGroup;
 			children = (
-				DD54C3611FDFBA8000B96A08 /* data12.txt */,
 				DDCEA64F1FDB293B000C99E5 /* data1.txt */,
 				DDCEA6081FD73ECB000C99E5 /* data4.txt */,
 				DDCEA6071FD6BCB2000C99E5 /* data5.txt */,
@@ -211,6 +231,9 @@
 				DDCEA63D1FDA76EA000C99E5 /* data8.txt */,
 				DDCEA65A1FDBD093000C99E5 /* data9.txt */,
 				DDCEA6711FDE6A1E000C99E5 /* data11.txt */,
+				DD54C3611FDFBA8000B96A08 /* data12.txt */,
+				DD54C3761FE5182500B96A08 /* data13.txt */,
+				DD54C3771FE5182500B96A08 /* data16.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -399,11 +422,13 @@
 				DDCEA6461FDAE814000C99E5 /* RegisterCollection.swift in Sources */,
 				DDCEA64A1FDAE929000C99E5 /* InstructionParser.swift in Sources */,
 				DDCEA6881FDF2AD6000C99E5 /* Challenge12.swift in Sources */,
+				DD54C3791FE537A000B96A08 /* DanceInstruction.swift in Sources */,
 				DD54C3701FE3C21700B96A08 /* Judge.swift in Sources */,
 				DDCEA67D1FDEDBE9000C99E5 /* MazeSquare.swift in Sources */,
 				DDCEA6701FDE6618000C99E5 /* Challenge11.swift in Sources */,
 				DD54C3721FE3C21D00B96A08 /* Generator.swift in Sources */,
 				DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */,
+				DD54C37B1FE539F900B96A08 /* DanceParser.swift in Sources */,
 				DDCEA66D1FDD96F5000C99E5 /* Challenge3.swift in Sources */,
 				DDCEA6591FDB5210000C99E5 /* Challenge9.swift in Sources */,
 				DDCEA60A1FD74039000C99E5 /* String+Util.swift in Sources */,
@@ -420,8 +445,10 @@
 				DDCEA6521FDB2BEA000C99E5 /* Challenge2.swift in Sources */,
 				DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */,
 				DD54C36B1FE1CD5300B96A08 /* Challenge14.swift in Sources */,
+				DD54C37D1FE53BD300B96A08 /* Dance.swift in Sources */,
 				DDCEA6811FDEDC0B000C99E5 /* MazeDirection.swift in Sources */,
 				DDCEA6561FDB2FDA000C99E5 /* Challenge4.swift in Sources */,
+				DD54C3751FE4136500B96A08 /* Challenge16.swift in Sources */,
 				DD54C3641FE104AA00B96A08 /* Challenge13.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
