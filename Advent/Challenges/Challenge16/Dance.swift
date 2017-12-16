@@ -15,11 +15,24 @@ class Dance {
         self.danceInstructions = danceInstructions
     }
 
-    func perform(programs: [String]) -> [String] {
+    func perform(onPrograms programs: [String], times: Int = 1) -> [String] {
         var result = programs
-        for danceInstruction in danceInstructions {
-            danceInstruction.perform(programs: &result)
+        for _ in 1...times {
+            for danceInstruction in danceInstructions {
+                danceInstruction.perform(programs: &result)
+            }
         }
         return result
+    }
+
+    func findRepetition(inPrograms programs: [String]) -> Int? {
+        var state = programs
+        for i in 1...1000 {
+            state = perform(onPrograms: state)
+            if state == programs {
+                return i
+            }
+        }
+        return nil
     }
 }

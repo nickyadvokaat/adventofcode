@@ -19,24 +19,15 @@ class Challenge16 {
 
         let dance = DanceParser.parseDance(instructions: line)
         let programs: [String] = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p"]
-        if let repeatsAfter = findRepetition(programs: programs, dance: dance) {
-            print("Repeats after \(repeatsAfter) dances")
-            var result = programs
-            for _ in 1...(1000000000 % repeatsAfter) {
-                result = dance.perform(programs: result)
-            }
-            print("Order after a billion dances: \(result)")
+        guard let repeatsAfter = dance.findRepetition(inPrograms: programs) else {
+            return
         }
-    }
 
-    private class func findRepetition(programs: [String], dance: Dance) -> Int? {
-        var state = programs
-        for i in 1...1000 {
-            state = dance.perform(programs: state)
-            if state == programs {
-                return i
-            }
-        }
-        return nil
+        let remainder = 1000000000 % repeatsAfter
+        let result = dance.perform(onPrograms: programs, times: remainder)
+
+        print("Repeats after \(repeatsAfter) dances")
+        print("Order after a billion dances: \(result)")
     }
 }
+
