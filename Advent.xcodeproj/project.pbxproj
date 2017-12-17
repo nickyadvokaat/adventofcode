@@ -18,6 +18,7 @@
 		DD54C3791FE537A000B96A08 /* DanceInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C3781FE537A000B96A08 /* DanceInstruction.swift */; };
 		DD54C37B1FE539F900B96A08 /* DanceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C37A1FE539F900B96A08 /* DanceParser.swift */; };
 		DD54C37D1FE53BD300B96A08 /* Dance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C37C1FE53BD300B96A08 /* Dance.swift */; };
+		DD54C3801FE6710B00B96A08 /* Challenge17.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C37F1FE6710B00B96A08 /* Challenge17.swift */; };
 		DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5D71FD56FDF000C99E5 /* main.swift */; };
 		DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */; };
 		DDCEA60A1FD74039000C99E5 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6091FD74039000C99E5 /* String+Util.swift */; };
@@ -82,6 +83,7 @@
 		DD54C3781FE537A000B96A08 /* DanceInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceInstruction.swift; sourceTree = "<group>"; };
 		DD54C37A1FE539F900B96A08 /* DanceParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceParser.swift; sourceTree = "<group>"; };
 		DD54C37C1FE53BD300B96A08 /* Dance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance.swift; sourceTree = "<group>"; };
+		DD54C37F1FE6710B00B96A08 /* Challenge17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge17.swift; sourceTree = "<group>"; };
 		DDCEA5D71FD56FDF000C99E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineReader.swift; sourceTree = "<group>"; };
 		DDCEA6071FD6BCB2000C99E5 /* data5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data5.txt; sourceTree = "<group>"; };
@@ -172,6 +174,14 @@
 			path = Challenge16;
 			sourceTree = "<group>";
 		};
+		DD54C37E1FE66A8B00B96A08 /* Challenge17 */ = {
+			isa = PBXGroup;
+			children = (
+				DD54C37F1FE6710B00B96A08 /* Challenge17.swift */,
+			);
+			path = Challenge17;
+			sourceTree = "<group>";
+		};
 		DDCEA5CB1FD56FDE000C99E5 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +214,7 @@
 		DDCEA5EB1FD5F081000C99E5 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				DD54C37E1FE66A8B00B96A08 /* Challenge17 */,
 				DDCEA64C1FDAF719000C99E5 /* Challenge1 */,
 				DDCEA6501FDB2BDA000C99E5 /* Challenge2 */,
 				DDCEA66B1FDD96E6000C99E5 /* Challenge3 */,
@@ -442,6 +453,7 @@
 				DD54C3681FE1227900B96A08 /* FirewallLayer.swift in Sources */,
 				DDCEA6401FDAE79D000C99E5 /* Instruction.swift in Sources */,
 				DDCEA6841FDEDC37000C99E5 /* Maze.swift in Sources */,
+				DD54C3801FE6710B00B96A08 /* Challenge17.swift in Sources */,
 				DDCEA6521FDB2BEA000C99E5 /* Challenge2.swift in Sources */,
 				DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */,
 				DD54C36B1FE1CD5300B96A08 /* Challenge14.swift in Sources */,
