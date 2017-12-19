@@ -19,6 +19,13 @@
 		DD54C37B1FE539F900B96A08 /* DanceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C37A1FE539F900B96A08 /* DanceParser.swift */; };
 		DD54C37D1FE53BD300B96A08 /* Dance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C37C1FE53BD300B96A08 /* Dance.swift */; };
 		DD54C3801FE6710B00B96A08 /* Challenge17.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C37F1FE6710B00B96A08 /* Challenge17.swift */; };
+		DDBCE8C61FE7111200EDDC5C /* Challenge18.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE8C51FE7111200EDDC5C /* Challenge18.swift */; };
+		DDBCE8C81FE802A600EDDC5C /* DuetInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE8C71FE802A600EDDC5C /* DuetInstruction.swift */; };
+		DDBCE8CB1FE8F16700EDDC5C /* Challenge19.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE8CA1FE8F16700EDDC5C /* Challenge19.swift */; };
+		DDBCE8CD1FE90C2100EDDC5C /* Diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE8CC1FE90C2100EDDC5C /* Diagram.swift */; };
+		DDBCE8CF1FE90C3C00EDDC5C /* DiagramCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE8CE1FE90C3C00EDDC5C /* DiagramCoordinate.swift */; };
+		DDBCE8D11FE928BD00EDDC5C /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE8D01FE928BD00EDDC5C /* Direction.swift */; };
+		DDBCE8D31FE933D600EDDC5C /* DiagramParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE8D21FE933D600EDDC5C /* DiagramParser.swift */; };
 		DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5D71FD56FDF000C99E5 /* main.swift */; };
 		DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */; };
 		DDCEA60A1FD74039000C99E5 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEA6091FD74039000C99E5 /* String+Util.swift */; };
@@ -68,7 +75,6 @@
 
 /* Begin PBXFileReference section */
 		DD54C35F1FDFBA3600B96A08 /* Advent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Advent; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD54C3601FDFBA3600B96A08 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Test.xctest; path = "/Users/nad21491/Xcode Projects/adventofcode/build/Debug/Test.xctest"; sourceTree = "<absolute>"; };
 		DD54C3611FDFBA8000B96A08 /* data12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data12.txt; sourceTree = "<group>"; };
 		DD54C3631FE104AA00B96A08 /* Challenge13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge13.swift; sourceTree = "<group>"; };
 		DD54C3651FE1227200B96A08 /* Firewall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firewall.swift; sourceTree = "<group>"; };
@@ -84,6 +90,14 @@
 		DD54C37A1FE539F900B96A08 /* DanceParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceParser.swift; sourceTree = "<group>"; };
 		DD54C37C1FE53BD300B96A08 /* Dance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance.swift; sourceTree = "<group>"; };
 		DD54C37F1FE6710B00B96A08 /* Challenge17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge17.swift; sourceTree = "<group>"; };
+		DDBCE8C31FE710FC00EDDC5C /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBCE8C51FE7111200EDDC5C /* Challenge18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge18.swift; sourceTree = "<group>"; };
+		DDBCE8C71FE802A600EDDC5C /* DuetInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetInstruction.swift; sourceTree = "<group>"; };
+		DDBCE8CA1FE8F16700EDDC5C /* Challenge19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge19.swift; sourceTree = "<group>"; };
+		DDBCE8CC1FE90C2100EDDC5C /* Diagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagram.swift; sourceTree = "<group>"; };
+		DDBCE8CE1FE90C3C00EDDC5C /* DiagramCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramCoordinate.swift; sourceTree = "<group>"; };
+		DDBCE8D01FE928BD00EDDC5C /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		DDBCE8D21FE933D600EDDC5C /* DiagramParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramParser.swift; sourceTree = "<group>"; };
 		DDCEA5D71FD56FDF000C99E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DDCEA5E61FD57EE7000C99E5 /* LineReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineReader.swift; sourceTree = "<group>"; };
 		DDCEA6071FD6BCB2000C99E5 /* data5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data5.txt; sourceTree = "<group>"; };
@@ -182,12 +196,34 @@
 			path = Challenge17;
 			sourceTree = "<group>";
 		};
+		DDBCE8C41FE7110400EDDC5C /* Challenge18 */ = {
+			isa = PBXGroup;
+			children = (
+				DDBCE8C51FE7111200EDDC5C /* Challenge18.swift */,
+				DDBCE8C71FE802A600EDDC5C /* DuetInstruction.swift */,
+			);
+			path = Challenge18;
+			sourceTree = "<group>";
+		};
+		DDBCE8C91FE8F15B00EDDC5C /* Challenge19 */ = {
+			isa = PBXGroup;
+			children = (
+				DDBCE8CA1FE8F16700EDDC5C /* Challenge19.swift */,
+				DDBCE8CC1FE90C2100EDDC5C /* Diagram.swift */,
+				DDBCE8CE1FE90C3C00EDDC5C /* DiagramCoordinate.swift */,
+				DDBCE8D01FE928BD00EDDC5C /* Direction.swift */,
+				DDBCE8D21FE933D600EDDC5C /* DiagramParser.swift */,
+			);
+			path = Challenge19;
+			sourceTree = "<group>";
+		};
 		DDCEA5CB1FD56FDE000C99E5 = {
 			isa = PBXGroup;
 			children = (
 				DDCEA5D61FD56FDF000C99E5 /* Advent */,
 				DDCEA6631FDD4CA0000C99E5 /* Test */,
 				DD54C35F1FDFBA3600B96A08 /* Advent */,
+				DDBCE8C31FE710FC00EDDC5C /* Test.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +250,8 @@
 		DDCEA5EB1FD5F081000C99E5 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				DDBCE8C91FE8F15B00EDDC5C /* Challenge19 */,
+				DDBCE8C41FE7110400EDDC5C /* Challenge18 */,
 				DD54C37E1FE66A8B00B96A08 /* Challenge17 */,
 				DDCEA64C1FDAF719000C99E5 /* Challenge1 */,
 				DDCEA6501FDB2BDA000C99E5 /* Challenge2 */,
@@ -374,7 +412,7 @@
 			);
 			name = Test;
 			productName = Test;
-			productReference = DD54C3601FDFBA3600B96A08 /* Test.xctest */;
+			productReference = DDBCE8C31FE710FC00EDDC5C /* Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -433,33 +471,40 @@
 				DDCEA6461FDAE814000C99E5 /* RegisterCollection.swift in Sources */,
 				DDCEA64A1FDAE929000C99E5 /* InstructionParser.swift in Sources */,
 				DDCEA6881FDF2AD6000C99E5 /* Challenge12.swift in Sources */,
+				DDBCE8CF1FE90C3C00EDDC5C /* DiagramCoordinate.swift in Sources */,
 				DD54C3791FE537A000B96A08 /* DanceInstruction.swift in Sources */,
 				DD54C3701FE3C21700B96A08 /* Judge.swift in Sources */,
 				DDCEA67D1FDEDBE9000C99E5 /* MazeSquare.swift in Sources */,
 				DDCEA6701FDE6618000C99E5 /* Challenge11.swift in Sources */,
 				DD54C3721FE3C21D00B96A08 /* Generator.swift in Sources */,
+				DDBCE8C81FE802A600EDDC5C /* DuetInstruction.swift in Sources */,
 				DDCEA5D81FD56FDF000C99E5 /* main.swift in Sources */,
 				DD54C37B1FE539F900B96A08 /* DanceParser.swift in Sources */,
 				DDCEA66D1FDD96F5000C99E5 /* Challenge3.swift in Sources */,
+				DDBCE8D11FE928BD00EDDC5C /* Direction.swift in Sources */,
 				DDCEA6591FDB5210000C99E5 /* Challenge9.swift in Sources */,
 				DDCEA60A1FD74039000C99E5 /* String+Util.swift in Sources */,
 				DD54C3661FE1227200B96A08 /* Firewall.swift in Sources */,
 				DDCEA6431FDAE7D2000C99E5 /* Register.swift in Sources */,
 				DDCEA63C1FDA76A1000C99E5 /* Challenge8.swift in Sources */,
+				DDBCE8CD1FE90C2100EDDC5C /* Diagram.swift in Sources */,
 				DD54C36E1FE3B22E00B96A08 /* Challenge15.swift in Sources */,
 				DDCEA64E1FDAF741000C99E5 /* Challenge1.swift in Sources */,
 				DDCEA65D1FDD310B000C99E5 /* Challenge10.swift in Sources */,
 				DDCEA6731FDE70A1000C99E5 /* HexCoordinate.swift in Sources */,
 				DD54C3681FE1227900B96A08 /* FirewallLayer.swift in Sources */,
 				DDCEA6401FDAE79D000C99E5 /* Instruction.swift in Sources */,
+				DDBCE8D31FE933D600EDDC5C /* DiagramParser.swift in Sources */,
 				DDCEA6841FDEDC37000C99E5 /* Maze.swift in Sources */,
 				DD54C3801FE6710B00B96A08 /* Challenge17.swift in Sources */,
 				DDCEA6521FDB2BEA000C99E5 /* Challenge2.swift in Sources */,
 				DDCEA5E71FD57EE7000C99E5 /* LineReader.swift in Sources */,
+				DDBCE8C61FE7111200EDDC5C /* Challenge18.swift in Sources */,
 				DD54C36B1FE1CD5300B96A08 /* Challenge14.swift in Sources */,
 				DD54C37D1FE53BD300B96A08 /* Dance.swift in Sources */,
 				DDCEA6811FDEDC0B000C99E5 /* MazeDirection.swift in Sources */,
 				DDCEA6561FDB2FDA000C99E5 /* Challenge4.swift in Sources */,
+				DDBCE8CB1FE8F16700EDDC5C /* Challenge19.swift in Sources */,
 				DD54C3751FE4136500B96A08 /* Challenge16.swift in Sources */,
 				DD54C3641FE104AA00B96A08 /* Challenge13.swift in Sources */,
 			);
